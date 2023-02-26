@@ -5,13 +5,13 @@ const Button = ({randomColor, getRandomAll}) => {
         backgroundColor: randomColor
     }
   return (
-    <div>
+    <>
         <button 
             className='card_btn' 
             style={backgroundObj}
             onClick={getRandomAll}
         >&#62;</button>
-    </div>
+    </>
   )
 }
 

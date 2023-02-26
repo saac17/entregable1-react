@@ -21,7 +21,15 @@ function App() {
     setRandomQuote(quotes[getIndexRandom(quotes)])
     setRandomColor(color[getIndexRandom(color)])
   }
-  
+
+  let newArray = []
+  for (let i = 0; i < quotes.length; i++) {
+    newArray.push(quotes[i].author)
+    // console.log(quotes[i].author);
+  }
+  console.log(newArray);
+  // const uniqueArray = [...new Set(newArray)];
+  // console.log(uniqueArray);
 
   return (
     <div style={backgroundObject} className="App">
