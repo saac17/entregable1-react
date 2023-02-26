@@ -126,8 +126,8 @@ p, h1{
 
 @media screen and (max-width:768px) {
     .card{
-        width: 350px;
-        height: 250px;
+        width: 300px;
+        height: 200px;
     }
     .card_quote{
         font-size: 16px;
